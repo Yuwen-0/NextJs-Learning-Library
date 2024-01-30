@@ -1,0 +1,9 @@
+@import url("https://fonts.cdnfonts.com/css/times-new-roman");
+.button {
+  transition: all 0.3s linear;
+  display: flex;
+  font-weight: 300;
+}
+.button:hover {
+  background-color: wheat;
+}
