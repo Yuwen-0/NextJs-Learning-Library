@@ -11,7 +11,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <header style={
+          {
+            backgroundColor: 'lightblue',
+            padding:"2em",
+          }
+        }>Header</header>
         {children}
+        <footer style={
+          {
+            backgroundColor: '#CD5C5C',
+            padding:"2em",
+          }
+        }>Footer</footer>
       </body>
     </html>
   )
