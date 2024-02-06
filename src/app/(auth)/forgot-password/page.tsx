@@ -1,9 +1,9 @@
-import React from 'react'
-
-const page = () => {
+const ForgotPassword = () => {
   return (
-    <div>page forgot password</div>
-  )
-}
+    <div>
+      <h1>Forgot Password</h1>
+    </div>
+  );
+};
 
-export default page
+export default ForgotPassword;
