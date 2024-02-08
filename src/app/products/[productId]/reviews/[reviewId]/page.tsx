@@ -10,11 +10,13 @@ export default function Reviews({
     reviewId: string;
   };
 }) {
+  /*
   const num = Math.floor(Math.random() * 5);
-  const num2 = "im tired";
   if (num > 1) {
     throw new Error("error");
   }
+  */
+
   if (parseInt(params.productId) > 1000) {
     notFound();
   }
