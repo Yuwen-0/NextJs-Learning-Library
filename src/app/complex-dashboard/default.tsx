@@ -1,3 +1,3 @@
-export default function Page() {
+export default function Default() {
   return <h1>Complex Dashboard</h1>;
 }
